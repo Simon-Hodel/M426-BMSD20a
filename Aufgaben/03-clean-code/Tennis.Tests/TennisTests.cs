@@ -69,7 +69,7 @@ namespace Tennis.Tests
                     game.WonPoint("player2");
             }
 
-            Assert.Equal(expectedScore, game.Score_Getter());
+            Assert.Equal(expectedScore, game.GetScore());
         }
     }
 }
